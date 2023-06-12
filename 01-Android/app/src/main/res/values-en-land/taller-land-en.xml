@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mensaje">LANDSCAPE English</string>
+    <color name="color_mensaje">#191970</color>
+    <color name="fondo_boton">#7FFF00</color>
+    <color name="fondo">#151516</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mensaje">PORTRAIT Spanish</string>
+    <color name="color_mensaje">#000000</color>
+    <color name="fondo_boton">#FF00FF</color>
+    <color name="fondo">#757576</color>
+</resources>
