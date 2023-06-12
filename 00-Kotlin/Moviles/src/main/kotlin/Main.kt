@@ -134,6 +134,22 @@ fun main(args: Array<String>) {
             return@all (valorActual>5)
         }
     println(respuestaAll)//False
+
+    //REDUCE -> Valor acumulado
+    //Valor acumulado = 0 (siempre 0 en lenguaje Kotlin)
+    //[1,2,3,4,5] -> Sumame todos los valores del arreglo
+    //valorIteracion1 = valorEmpieza + 1 = 0 + 1 = 1 -> Iteracion 1
+    //valorIteracion2 = ValorIteracion1 + 2 = 1 + 2 = 3 -> Iteracion 2
+    //valorIteracion3 = valorIteracion2 + 3 = 3 + 3 = 6 -> Iteracion 3
+    //valorIteracion4 = valorIteracion3 + 4 = 6 + 4 = 10 -> Iteracion 4
+    //valorIteracion5 = valorIteracion4 + 5 = 10 + 5 = 15 -> Iteracion 5
+
+    val respuestaReduce: Int = arregloDinamico
+        .reduce{ //acumulado =0 -> SIEMPRE EMPIEZA EN 0
+            acumulado:Int, valorActual: Int ->
+            return@reduce(acumulado + valorActual) //->logica negocio
+         }
+    println(respuestaReduce) //78
 }
 
 
