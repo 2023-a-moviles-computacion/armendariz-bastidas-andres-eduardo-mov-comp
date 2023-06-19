@@ -13,6 +13,14 @@
         android:theme="@style/Theme.MovilesComp2023A"
         tools:targetApi="31">
         <activity
+            android:name=".BListView"
+            android:exported="false" />
+        <activity
+            android:name=".AACicloVida"
+            android:exported="false"
+            android:label="@string/title_activity_aaciclo_vida"
+            android:theme="@style/Theme.MovilesComp2023A" />
+        <activity
             android:name=".ACicloVida"
             android:exported="false" />
         <activity
