@@ -1,0 +1,2 @@
+1,America,true,30000.0
+2,ociidental,true,32000.0
