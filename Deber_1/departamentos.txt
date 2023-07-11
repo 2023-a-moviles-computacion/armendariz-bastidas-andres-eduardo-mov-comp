@@ -1,0 +1,2 @@
+1,1,Andres,300.0,true,false
+2,1,eduardo,250.0,false,false
