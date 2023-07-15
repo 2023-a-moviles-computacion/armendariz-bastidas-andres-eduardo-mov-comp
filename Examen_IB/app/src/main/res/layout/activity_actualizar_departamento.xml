@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarDepartamento">
+
+    <EditText
+        android:id="@+id/et_upd_iddepartamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <EditText
+        android:id="@+id/et_upd_nombreDepartamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Nombre Inquilino"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_iddepartamento"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_iddepartamento"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_iddepartamento" />
+
+    <EditText
+        android:id="@+id/et_upd_alquilerDepartamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Alquiler"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_nombreDepartamento"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_nombreDepartamento"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_nombreDepartamento" />
+
+    <EditText
+        android:id="@+id/et_upd_fechaContrato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Fecha de Contrato"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_alquilerDepartamento"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_alquilerDepartamento"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_alquilerDepartamento" />
+
+    <EditText
+        android:id="@+id/et_upd_estacionamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="¿Tiene Estacionamiento?"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_fechaContrato"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_fechaContrato"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_fechaContrato" />
+
+    <EditText
+        android:id="@+id/et_upd_id_edificio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="ID Edificio"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_estacionamiento"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_estacionamiento"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_estacionamiento" />
+
+    <Button
+        android:id="@+id/btn_upd_EDIFICIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="ACTUALIZAR EDIFICIO"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_id_edificio"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_id_edificio"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_id_edificio" />
+</androidx.constraintlayout.widget.ConstraintLayout>

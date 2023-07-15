@@ -1,1 +1,0 @@
-# armendariz-bastidas-andres-eduardo-mov-comp
