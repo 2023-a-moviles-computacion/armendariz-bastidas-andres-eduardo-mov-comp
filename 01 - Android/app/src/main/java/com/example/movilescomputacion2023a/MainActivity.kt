@@ -109,10 +109,11 @@ class MainActivity : AppCompatActivity() {
                 irActividad(HFirebaseUIAuth::class.java)
             }
 
+
         val botonFirestore = findViewById<Button>(R.id.btn_intent_firestore)
-        botonFirebaseUI
+        botonFirestore
             .setOnClickListener {
-                irActividad(HFirebaseUIAuth::class.java)
+                irActividad(IFirestore::class.java)
             }
     }
     fun abrirActividadConParametros(
@@ -123,6 +124,9 @@ class MainActivity : AppCompatActivity() {
         intentExplicito.putExtra("nombre", "Adrian")
         intentExplicito.putExtra("apellido", "Eguez")
         intentExplicito.putExtra("edad", 34)
+        intentExplicito.putExtra("entrenador",
+            BEntrenador(1, "Adrian", "Desc")
+        )
 
         callbackContenidoIntentExplicito.launch(intentExplicito)
     }
