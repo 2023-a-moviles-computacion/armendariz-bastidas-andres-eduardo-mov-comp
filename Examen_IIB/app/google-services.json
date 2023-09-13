@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "424461234404",
+    "project_id": "examen-iib-209ad",
+    "storage_bucket": "examen-iib-209ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424461234404:android:f6261ff0fc82a46df7fcf1",
+        "android_client_info": {
+          "package_name": "com.example.crudfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuAoQxKRzcYt6EKLiW9XEwqzY5CIzw6QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424461234404:android:62fd641835530de7f7fcf1",
+        "android_client_info": {
+          "package_name": "com.example.examen_ib"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuAoQxKRzcYt6EKLiW9XEwqzY5CIzw6QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424461234404:android:dab8a2cb940c04ecf7fcf1",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuAoQxKRzcYt6EKLiW9XEwqzY5CIzw6QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/text_view12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:text="Metros cuadrados:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view11" />
+
+    <TextView
+        android:id="@+id/text_view6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Id:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_view7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Id edificio:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view6" />
+
+    <TextView
+        android:id="@+id/text_view8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Nombre inquilino:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view7" />
+
+    <TextView
+        android:id="@+id/text_view9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Fecha Contrato:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view8" />
+
+    <TextView
+        android:id="@+id/text_view10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Arriendo:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view9" />
+
+    <TextView
+        android:id="@+id/text_view11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:text="¿Tiene estacionamiento?"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view10" />
+
+            <TextView
+                android:id="@+id/tv_carro_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/text_view6"
+                app:layout_constraintStart_toEndOf="@+id/text_view6"
+                app:layout_constraintTop_toTopOf="@+id/text_view6" />
+
+            <TextView
+                android:id="@+id/tv_carro_concesionario_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/text_view7"
+                app:layout_constraintStart_toEndOf="@+id/text_view7"
+                app:layout_constraintTop_toTopOf="@+id/text_view7" />
+
+            <TextView
+                android:id="@+id/tv_carro_marca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/text_view8"
+                app:layout_constraintStart_toEndOf="@+id/text_view8"
+                app:layout_constraintTop_toTopOf="@+id/text_view8" />
+
+            <TextView
+                android:id="@+id/tv_carro_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/text_view9"
+                app:layout_constraintStart_toEndOf="@+id/text_view9"
+                app:layout_constraintTop_toTopOf="@+id/text_view9" />
+
+            <TextView
+                android:id="@+id/tv_carro_precio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/text_view10"
+                app:layout_constraintStart_toEndOf="@+id/text_view10"
+                app:layout_constraintTop_toTopOf="@+id/text_view10" />
+
+            <TextView
+                android:id="@+id/tv_carro_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/text_view11"
+                app:layout_constraintStart_toEndOf="@+id/text_view11"
+                app:layout_constraintTop_toTopOf="@+id/text_view11"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/tv_carro_meses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/text_view12"
+                app:layout_constraintStart_toEndOf="@+id/text_view12"
+                app:layout_constraintTop_toTopOf="@+id/text_view12" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
